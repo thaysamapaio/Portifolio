@@ -1,0 +1,44 @@
+
+.apresentacao{
+    background-image: url("https://i.pinimg.com/736x/97/8d/d3/978dd3bc6041a3d6e025e32415c71b67.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.sobre{
+    display: flex;
+    gap: 40px;
+    padding: 2%;
+    line-height: 24px;
+    align-items: center;
+    background:black;
+    color:white;
+
+}
+h2{
+    font-size:33px ;
+}
+h1{
+    color:white
+}
+
+nav{
+    background: black;
+    padding: 10px;
+}
+ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+
+.sobre{
+    margin-top: 20px;
+}
