@@ -1,10 +1,19 @@
-
-.apresentacao{
-    background-image: url("https://i.pinimg.com/736x/97/8d/d3/978dd3bc6041a3d6e025e32415c71b67.jpg");
+.tutorial{
+    background-color: black;
+    margin-top: 20px;
+    background-image: url("https://i.pinimg.com/736x/50/7d/94/507d94180945abe3a7e4f991cc2f9373.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position:top;
+
+}
+.apresentacao{
+    background-image: url("https://i.pinimg.com/736x/65/f6/5b/65f65bf833ab4709031be0fb3c1b5ed0.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 500px;
-    background-position: center;
+    background-position:top;
+    font-size:33px ;
 }
 
 .sobre{
@@ -18,10 +27,25 @@
 
 }
 h2{
-    font-size:33px ;
+    font-size:33px;
+    
 }
 h1{
-    color:white
+    color:white;
+    align-items: center;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    
+}
+h3{
+    color:white;
+    font-size:33px;
+    background-position:top;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    
 }
 
 nav{
@@ -41,4 +65,5 @@ a{
 
 .sobre{
     margin-top: 20px;
+    font-size:20px;
 }
